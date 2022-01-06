@@ -3,6 +3,7 @@ package com.koreait.myjwtapp.repository.models.response;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+import com.koreait.myjwtapp.repository.models.response.common.Data;
 
 
 public class ResLogin {

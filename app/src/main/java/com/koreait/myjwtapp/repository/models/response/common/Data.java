@@ -1,5 +1,5 @@
 
-package com.koreait.myjwtapp.repository.models.response;
+package com.koreait.myjwtapp.repository.models.response.common;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

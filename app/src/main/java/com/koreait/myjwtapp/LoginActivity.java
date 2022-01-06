@@ -61,6 +61,11 @@ public class LoginActivity extends AppCompatActivity {
                             SharedPreferences.Editor editor = preferences.edit();
                             editor.putString("jwt", response.headers().get("Authorization"));
                             editor.apply();
+
+                            Intent intent = new Intent(view.getContext(), MainActivity.class);
+                            intent.putExtra("msg", resLogin.getMsg());
+                            startActivity(intent);
+
                         }
                     }
 
